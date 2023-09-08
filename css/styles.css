@@ -537,6 +537,7 @@ footer .social-media-link:focus {
 .email-form {
   display: flex;
   flex-direction: row;
+  gap: 24px;
 }
 
 .email-form-input {
