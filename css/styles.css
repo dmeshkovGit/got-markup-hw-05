@@ -621,10 +621,13 @@ footer .social-media-link:focus {
   min-height: 584px;
   border-radius: 4px;
   background: var(--DAIRY, #fcfcfc);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   padding-top: 72px;
   padding-bottom: 24px;
   padding-right: 24px;
   padding-left: 24px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-btn {
@@ -633,17 +636,21 @@ footer .social-media-link:focus {
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 25px;
+  top: 24px;
   right: 24px;
   width: 24px;
   height: 24px;
+  padding: 0;
   background-color: var(--CORNFLOWER, #e7e9fc);
   fill: #2e2f42;
   border-radius: 50%;
-  border-color: rgba(0, 0, 0, 0.1);
-  border-width: 1px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.close-btn-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-btn:hover,
