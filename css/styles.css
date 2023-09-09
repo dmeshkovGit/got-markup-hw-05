@@ -831,12 +831,6 @@ footer .social-media-link:focus {
   border-color: #4d5ae5;
 }
 
-.call-back-form-submit-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .call-back-form-submit {
   color: var(--WHITE, #fff);
   cursor: pointer;
