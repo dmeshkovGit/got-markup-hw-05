@@ -689,6 +689,10 @@ footer .social-media-link:focus {
 }
 
 .call-back-form-field-label {
+  margin-bottom: 4px;
+}
+
+.call-back-form-label-wrapper {
   margin-bottom: 8px;
 }
 
