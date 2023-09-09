@@ -683,9 +683,13 @@ footer .social-media-link:focus {
   font-family: Roboto;
   font-size: 12px;
   font-weight: 400;
-  line-height: 0.86em;
+  line-height: 1.17;
   letter-spacing: 0.48px;
   margin-bottom: 4px;
+}
+
+.call-back-form-field-label {
+  margin-bottom: 8px;
 }
 
 .call-back-form-input-wrapper {
